@@ -1,0 +1,4 @@
+interface:
+  display_name: "需求与设计文档"
+  short_description: "面向用户视角与架构原则的中文文档编写、改写和审阅规范"
+  default_prompt: "使用 $requirements-design-docs 帮我编写或审阅一份中文需求文档或概要设计文档。"

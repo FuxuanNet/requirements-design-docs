@@ -24,13 +24,13 @@
 发布到 GitHub 后，将下面的 `<OWNER>` 替换为仓库所有者：
 
 ```bash
-npx skills add https://github.com/<OWNER>/requirements-design-docs
+npx skills add https://github.com/FuxuanNet/requirements-design-docs
 ```
 
 仅安装到 Codex：
 
 ```bash
-npx skills add https://github.com/<OWNER>/requirements-design-docs -a codex
+npx skills add https://github.com/FuxuanNet/requirements-design-docs -a codex
 ```
 
 安装器从 GitHub 仓库根目录读取 `SKILL.md`。因此发布时应将当前目录的内容作为仓库根目录，不要再包一层 `skills/requirements-design-docs`。
